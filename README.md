@@ -2,6 +2,7 @@
 Database setup: The database has been hosted by me with password which is not safe to be exposed in github
 Alternatively, the mysql table has been designed with the following schema:
 
+```
 CREATE TABLE students (
   id INT AUTO_INCREMENT PRIMARY KEY,
   email VARCHAR(255) UNIQUE NOT NULL,
@@ -26,6 +27,7 @@ DATABASE_HOST = <insert mysql database host here>
 DATABASE_USERNAME = <insert username here>
 DATABASE_PASSWORD = <insert password here>
 DATABASE_NAME = <insert database name here>
+```
 
 To setup the code to be run, please download the package first by running the following command:
 npm i
