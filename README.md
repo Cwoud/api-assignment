@@ -32,9 +32,13 @@ DATABASE_NAME = <insert database name here>
 ```
 
 To setup the code to be run, please download the package first by running the following command:
+```
 npm i
+```
 
 To run the code locally, please run the following command:
+```
 npm start
+```
 
 After the server has started, you may test the api accordingly. 
