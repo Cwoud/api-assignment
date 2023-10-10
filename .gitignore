@@ -1,0 +1,7 @@
+# ignores all .env and node modules files
+.env
+node_modules
+package-lock.json
+
+# does not ignore the README.md file
+!README.md
