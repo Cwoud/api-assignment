@@ -21,8 +21,10 @@ CREATE TABLE teacher_student (
   FOREIGN KEY (teacher_id) REFERENCES teachers(id),
   FOREIGN KEY (student_id) REFERENCES students(id)
 );
+```
 
 The database can be setup with .env file with the following format to test the api:
+```
 DATABASE_HOST = <insert mysql database host here>
 DATABASE_USERNAME = <insert username here>
 DATABASE_PASSWORD = <insert password here>
